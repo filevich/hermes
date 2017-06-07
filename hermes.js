@@ -1,7 +1,7 @@
-var focused 			= 0
+var focused 		= 0
 	, isFullScreen 	= false
-	, videos 				= document.getElementsByTagName("video") 	//htmlCollection
-		videos 				= [].slice.call(videos) 									//array
+	, videos 		= document.getElementsByTagName("video") 	//htmlCollection
+	videos 			= [].slice.call(videos) 									//array
 
 videos[0].playbackRate = 1.8;
 
