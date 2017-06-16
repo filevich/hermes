@@ -15,7 +15,7 @@ document.addEventListener('click', function(event){
   }
   // else: video clicked, but which one?
   focused = videos.findIndex(function(event){
-   return event.id == e.id;
+    return event.id == e.id;
   })
 
   //event.preventDefault()
