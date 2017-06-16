@@ -1,13 +1,14 @@
-var focused 	   = 0
+var focused 	     = 0
     , isFullScreen = false
-    , videos 	   = document.getElementsByTagName("video") //htmlCollection
-      videos 	   = [].slice.call(videos) 		    //Array
+    , videos 	     = document.getElementsByTagName("video") //htmlCollection
+      videos 	     = [].slice.call(videos) 		              //Array
 
 videos[0].playbackRate = 1.8;
 
 // focus listener
 document.addEventListener('click', function(event){
   var e = event.target
+
   if(e.tagName != 'VIDEO')
   {
     focused = -1;
@@ -54,7 +55,7 @@ document.addEventListener('keydown', function(event){
       break;
     case 'KeyJ':
       videos[focused].currentTime -= 10
-     break;
+      break;
     case 'KeyL':
       videos[focused].currentTime += 10
       break;
