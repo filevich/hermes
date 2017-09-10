@@ -22,10 +22,10 @@ document.addEventListener('click', (event) => {
 
 // keyboard shortcuts listener
 document.addEventListener('keydown', (event) => {
-  if (focused == -1){
+  if (focused == -1) {
     return;
   }
-  event.preventDefault()
+  event.preventDefault();
   let key = event.code;
   // else: video focused
   switch(key) {
@@ -72,7 +72,7 @@ document.addEventListener('keydown', (event) => {
 })
 
 let togglePause = (v) => {
-  if (v.paused){
+  if (v.paused) {
     v.play();
   } else {
     v.pause();
@@ -93,7 +93,7 @@ let toggleFullScreen = (v) => {
   {
     if (isFullScreen) {
       exitFullScreen(v);
-    } else{
+    } else {
       v.webkitRequestFullScreen();
     }
   }
