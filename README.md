@@ -1,5 +1,5 @@
 # hermes
-Improved HTML5 video's keyboard interface (Youtubeish like shortcuts)
+Improved HTML5 video's keyboard interface (Youtube like shortcuts)
 
 |key(s)            |action (if focused)|
 |:----------------:|:-----------------:|
